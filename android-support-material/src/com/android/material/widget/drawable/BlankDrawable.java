@@ -1,4 +1,4 @@
-package com.android.material.drawable;
+package com.android.material.widget.drawable;
 
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;

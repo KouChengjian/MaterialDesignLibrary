@@ -28,13 +28,13 @@ import android.view.animation.AnimationUtils;
 import android.widget.FrameLayout;
 
 import com.android.material.R;
-import com.android.material.drawable.BlankDrawable;
-import com.android.material.drawable.RippleDrawable;
 import com.android.material.ui.fragment.DialogFragment;
 import com.android.material.utils.ThemeUtil;
 import com.android.material.utils.ViewUtil;
 import com.android.material.widget.Button;
 import com.android.material.widget.TextView;
+import com.android.material.widget.drawable.BlankDrawable;
+import com.android.material.widget.drawable.RippleDrawable;
 
 /**
  * Created by Rey on 12/10/2014.

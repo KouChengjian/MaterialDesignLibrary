@@ -15,12 +15,12 @@ import android.widget.BaseAdapter;
 import android.widget.ScrollView;
 
 import com.android.material.R;
-import com.android.material.drawable.BlankDrawable;
 import com.android.material.widget.CheckBox;
 import com.android.material.widget.CompoundButton;
 import com.android.material.widget.ListView;
 import com.android.material.widget.RadioButton;
 import com.android.material.widget.TextView;
+import com.android.material.widget.drawable.BlankDrawable;
 
 /**
  * Created by Rey on 12/16/2014.

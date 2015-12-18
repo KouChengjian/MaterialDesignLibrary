@@ -5,9 +5,9 @@ import android.support.v7.internal.widget.ListViewCompat;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.android.material.config.RippleManager;
-import com.android.material.config.ThemeManager;
 import com.android.material.utils.ViewUtil;
+import com.android.material.view.RippleManager;
+import com.android.material.view.ThemeManager;
 
 public class ListView extends ListViewCompat implements ThemeManager.OnThemeChangedListener{
 

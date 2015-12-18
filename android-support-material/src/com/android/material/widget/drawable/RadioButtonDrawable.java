@@ -1,4 +1,4 @@
-package com.android.material.drawable;
+package com.android.material.widget.drawable;
 
 import android.content.Context;
 import android.content.res.ColorStateList;

@@ -1,4 +1,4 @@
-package com.android.material.config;
+package com.android.material.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,9 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.android.material.R;
-import com.android.material.drawable.RippleDrawable;
-import com.android.material.drawable.ToolbarRippleDrawable;
 import com.android.material.utils.ViewUtil;
+import com.android.material.widget.drawable.RippleDrawable;
+import com.android.material.widget.drawable.ToolbarRippleDrawable;
 
 public final class RippleManager implements View.OnClickListener, Runnable{
 

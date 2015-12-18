@@ -7,10 +7,10 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.android.material.config.RippleManager;
-import com.android.material.config.ThemeManager;
-import com.android.material.drawable.RippleDrawable;
 import com.android.material.utils.ViewUtil;
+import com.android.material.view.RippleManager;
+import com.android.material.view.ThemeManager;
+import com.android.material.widget.drawable.RippleDrawable;
 
 public class TextView extends android.widget.TextView implements ThemeManager.OnThemeChangedListener{
 

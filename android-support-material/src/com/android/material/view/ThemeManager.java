@@ -1,4 +1,4 @@
-package com.android.material.config;
+package com.android.material.view;
 
 import android.app.Application;
 import android.content.Context;
@@ -175,7 +175,7 @@ public class ThemeManager {
 
     /**
      * Register a listener will be called when current theme changed.
-     * @param listener A {@link com.rey.material.app.ThemeManager.OnThemeChangedListener} will be registered.
+     * @param listener A {@link com.android.material.view.rey.material.app.ThemeManager.OnThemeChangedListener} will be registered.
      */
     public void registerOnThemeChangedListener(@NonNull OnThemeChangedListener listener){
         mDispatcher.registerListener(listener);
@@ -183,7 +183,7 @@ public class ThemeManager {
 
     /**
      * Unregister a listener from be called when current theme changed.
-     * @param listener A {@link com.rey.material.app.ThemeManager.OnThemeChangedListener} will be unregistered.
+     * @param listener A {@link com.android.material.view.rey.material.app.ThemeManager.OnThemeChangedListener} will be unregistered.
      */
     public void unregisterOnThemeChangedListener(@NonNull OnThemeChangedListener listener){
         mDispatcher.unregisterListener(listener);
