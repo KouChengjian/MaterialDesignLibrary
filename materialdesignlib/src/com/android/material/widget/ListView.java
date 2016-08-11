@@ -4,6 +4,7 @@ import android.content.Context;
 import android.support.v7.internal.widget.ListViewCompat;
 import android.util.AttributeSet;
 import android.view.View;
+import android.widget.AbsListView.RecyclerListener;
 
 import com.android.material.utils.ViewUtil;
 import com.android.material.view.RippleManager;

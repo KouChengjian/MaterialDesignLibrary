@@ -2,7 +2,6 @@ package com.android.material.widget;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
@@ -115,7 +114,7 @@ public class Button extends android.widget.Button implements ThemeManager.OnThem
 	}
 	
 	@Override
-    public boolean onTouchEvent(@NonNull MotionEvent event) {
+    public boolean onTouchEvent(MotionEvent event) {
 		boolean result = super.onTouchEvent(event);
 		return  getRippleManager().onTouchEvent(event) || result;
 	}

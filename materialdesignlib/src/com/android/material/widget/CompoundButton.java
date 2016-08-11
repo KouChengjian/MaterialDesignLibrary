@@ -5,7 +5,6 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
-import android.support.annotation.NonNull;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 
@@ -132,7 +131,7 @@ public class CompoundButton extends android.widget.CompoundButton implements The
 	}
 
 	@Override
-	public boolean onTouchEvent(@NonNull MotionEvent event) {
+	public boolean onTouchEvent(MotionEvent event) {
 		boolean result = super.onTouchEvent(event);
 		return  getRippleManager().onTouchEvent(event) || result;
 	}
